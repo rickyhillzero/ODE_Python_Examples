@@ -29,10 +29,10 @@ $$\beta \text{ is immunity coefficient}$$
 
 ### Assumptions
 
-1. There are some infected to begin with
-2. Net population isn't changing
-3. Constants are indeed constant and not changing
-4. etc
+- There are some infected to begin with
+- Net population isn't changing
+- Constants are indeed constant and not changing
+- etc
 
 ### Getting Started with JetBrains
 
