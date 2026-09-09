@@ -1,7 +1,5 @@
 # Solving ODEs using Python: SIRS Example
 
-#### Richard Hill
-
 ### Preface
 
 The goal of this example is to provide some code to get you, yes you, the next great math modeler, started with solving ordinary different equations with Python. The example I will specifically use is the susceptible, infected, recovered, and susceptible (again). This model is used within our ODE class as a great problem to work through, and allows many expansions to make it more accurate. In fact, the second susceptible is already an addon! It makes the graphs more interesting, thus I included it here.
