@@ -1,4 +1,4 @@
-# Solving ODEs using Python: SIRS Example
+# Solving ODEs using Python + Examples!
 
 ### Preface
 
@@ -15,7 +15,7 @@ The goal of this example is to provide some code to get you, yes you, the next g
 
  The susceptible, infected, recovered, and susceptible (again) model is a very tackalable, tacklable.... a very viable problem to be solved within Excel. This can be done with sum of squared errors and a very slick add-on that includes an optimizer, but that requires work.... we, as of now, are semi-computer scientists. If we have to do it once in Excel, there is a good chance it could be a lot faster by writing some code (especially if it's a monotonous task that must be done over and over again). Along with this, expanding the model with more add-ons becomes much easier, and the scope of what can be added expands greatly!
 
-![sirsflowchart.png](sirsflowchart.png)
+![sirsflowchart.png](sirs/sirsflowchart.png)
 
 $$\frac{dS}{dt} = -\alpha SI + \beta R$$ 
 $$\frac{dI}{dt} = -\gamma I + \alpha SI$$
@@ -44,4 +44,4 @@ $$\beta \text{ is immunity coefficient}$$
 
 ### Example Output from Program
 
-![SIRSModel.png](SIRSModel.png)
+![SIRSModel.png](sirs/SIRSModel.png)
