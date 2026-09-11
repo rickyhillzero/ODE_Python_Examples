@@ -11,8 +11,8 @@ t_span = (0, 30) # time span
 max_step = 0.1 # largest step size solver will use
 
 # some graphing settings + more!
-csv_file_name = "sirs_solution.csv"
-graph_title = "SIRS Model"
+csv_file_name = "sirs_solution_mutate.csv"
+graph_title = "SIRS Mutate Model"
 graph_subtitle = fr"$\alpha$ = {a}, $\beta$ = oscillatory, $\gamma$ = {g}, Initial Conditions: S = {X_o[0]}, I = {X_o[1]}, R = {X_o[2]}"
 x_axis_name = "Time"
 y_axis_name = "Population Fraction"
